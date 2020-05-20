@@ -27,20 +27,19 @@
       </tr>
     </thead>
   </table>
-  <div class="page">
-    <nav aria-label="Page navigation">
-      <ul class="pagination">
-        <li class="page-item " aria-current="page">
-          <button class="btn btn-primary">1</button>
-        </li>
-        <li class="page-item ">
-          <button class="btn btn-primary">2</button>
-        </li>
-      </ul>
-    </nav>
-  </div>
+  
+  <nav aria-label="Page navigation">
+    <ul class="pagination">
+      <li class="page-item " aria-current="page">
+        <button class="btn btn-primary" id="page1" onclick="getData(1)">1</button>
+      </li>
+      <li class="page-item ">
+        <button class="btn btn-primary" id="page2" onclick="getData(2)">2</button>
+      </li>
+    </ul>
+  </nav>
   <!-- The Modal Update-->
-  <div class="modal fade" id="myModal">
+  <div class="modal fade" id="myModalUpdate">
     <div class="modal-dialog">
       <div class="modal-content">
 
@@ -99,7 +98,7 @@
                 <tr>
                   <td> </td>
                   <td>
-                    <button type="button" class="btn btn-success" id="submit">Add</button>
+                    <button type="button" class="btn btn-success" id="submit" onclick="addUser()">Add</button>
                   </td>
                 </tr>
               </thead>
