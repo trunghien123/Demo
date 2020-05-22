@@ -1,3 +1,6 @@
+.fixed-table-loading {
+    display: none;
+  }
 .table {
     width: auto;
     margin: auto;
@@ -13,7 +16,6 @@
     font-weight: bold;
     padding: 7px;
 }
-.page{
-    width: 100%;
-    margin: auto;
+.nav_paging{
+    padding-top: 20px;
 }
